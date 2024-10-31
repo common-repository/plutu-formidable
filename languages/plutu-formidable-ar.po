@@ -1,0 +1,656 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plutu Formidable\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-09 21:14+0200\n"
+"PO-Revision-Date: 2022-04-09 21:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: formidable-plutu\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:60
+msgid "Token mismatch, please refresh the page"
+msgstr "رمز الصفحة غير مطابق ، يرجى تحديث الصفحة"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:65
+#: includes/models/class-plutu-formidable-field.php:309
+#: includes/models/class-plutu-formidable-field.php:359
+msgid "The amount required"
+msgstr "القيمة مطلوبة"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:70
+msgid "Amount must be integer"
+msgstr "يجب أن يكون المبلغ عددًا صحيحًا"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:77
+#: includes/controllers/class-plutu-formidable-settings-controller.php:174
+msgid "Please check amount value"
+msgstr "الرجاء التحقق من حقل القيمة"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:114
+msgid "An OTP has been sent to your mobile number"
+msgstr "تم إرسال رمز التأكيد علي هاتفك النقال"
+
+#: includes/abstracts/class-plutu-formidable-ajax-payment-gateway.php:117
+msgid ""
+"Process ID is not included, please try again, contact us if the problem "
+"occurs again."
+msgstr ""
+"لم يتم تضمين معرف العملية ، يرجى المحاولة مرة أخرى ، اتصل بنا في حالة حدوث "
+"المشكلة مرة أخرى."
+
+#: includes/ajax/class-plutu-formidable-adfali-ajax-payment-gateway.php:49
+#: includes/ajax/class-plutu-formidable-sadadapi-ajax-payment-gateway.php:50
+msgid "All fields are required"
+msgstr "جميع حقول بيانات الدفع مطلوبة"
+
+#: includes/ajax/class-plutu-formidable-adfali-ajax-payment-gateway.php:54
+msgid "Mobile number is required"
+msgstr "‏رقم الهاتف النقال مطلوب"
+
+#: includes/ajax/class-plutu-formidable-adfali-ajax-payment-gateway.php:59
+msgid "Invalid mobile number format"
+msgstr "تنسيق رقم الهاتف غير صحيح"
+
+#: includes/ajax/class-plutu-formidable-sadadapi-ajax-payment-gateway.php:55
+msgid "Invalid phone number format, must start with 091 or 91"
+msgstr "تنسيق رقم الهاتف غير صحيح ، يجب أن يبدأ بـ 091 أو 91"
+
+#: includes/ajax/class-plutu-formidable-sadadapi-ajax-payment-gateway.php:59
+msgid "Please enter a valid birth year"
+msgstr "الرجاء إدخال سنة الميلاد بشكل صحيح"
+
+#: includes/controllers/class-plutu-formidable-settings-controller.php:73
+#: includes/controllers/class-plutu-formidable-settings-controller.php:137
+#: includes/views/settings/fields.php:15
+msgid "Plutu"
+msgstr "بلوتو"
+
+#: includes/controllers/class-plutu-formidable-settings-controller.php:202
+msgid "Payment method is invalid"
+msgstr "طريقة الدفع غير صالحة"
+
+#: includes/controllers/class-plutu-formidable-settings-controller.php:207
+msgid "Invalid total payment"
+msgstr "إجمالي الدفع غير صحيح"
+
+#: includes/controllers/class-plutu-formidable-settings-controller.php:235
+msgid ""
+"The transaction has been completed but the transaction amount is not equal "
+"to the total, please report us"
+msgstr ""
+"تم إتمام المعاملة ولكن مبلغ المعاملة لا يساوي الإجمالي، يرجى التواصل معنا"
+
+#: includes/models/class-plutu-formidable-field.php:108
+msgid "Sadad Payment"
+msgstr "خدمة سداد"
+
+#: includes/models/class-plutu-formidable-field.php:111
+msgid "Adfali Payment"
+msgstr "خدمة أدفعلي"
+
+#: includes/models/class-plutu-formidable-field.php:118
+#, php-format
+msgid "Transaction ID: %s"
+msgstr "رقم المعاملة: %s"
+
+#: includes/models/class-plutu-formidable-field.php:126
+#, php-format
+msgid "Amount: %s LYD"
+msgstr "القيمة: %s د.ل"
+
+#: includes/models/class-plutu-formidable-field.php:168
+#: includes/traits/trait-plutu-formidable-helper.php:334
+#: includes/traits/trait-plutu-formidable-helper.php:339
+msgid "The Total field associated with the Plutu field is missing"
+msgstr "الحقل الإجمالي المرتبط بحقل Plutu غير موجود"
+
+#: includes/models/class-plutu-formidable-field.php:258
+msgid "There are no available payment methods associated with the form"
+msgstr "لا توجد طرق دفع متاحة مرتبطة بالنموذج"
+
+#: includes/models/class-plutu-formidable-field.php:317
+msgid "The mobile phone number subscribed to the Sadad service is required"
+msgstr "رقم الهاتف المشترك بخدمة سداد مطلوب"
+
+#: includes/models/class-plutu-formidable-field.php:323
+msgid "Birth year field is required"
+msgstr "الرجاء إدخال سنة الميلاد"
+
+#: includes/models/class-plutu-formidable-field.php:331
+#: includes/models/class-plutu-formidable-field.php:334
+msgid "Payment must be made via Sadad before proceeding"
+msgstr "يجب أن يتم الدفع عن طريق سداد قبل المتابعة"
+
+#: includes/models/class-plutu-formidable-field.php:340
+msgid "OTP code received from Sadad is required"
+msgstr "ادخل رمز التأكيد المستلم من خدمة سداد"
+
+#: includes/models/class-plutu-formidable-field.php:343
+#: includes/models/class-plutu-formidable-field.php:387
+msgid "OTP must be numeric"
+msgstr "رمز التأكيد يجب أن يكون رقم"
+
+#: includes/models/class-plutu-formidable-field.php:367
+msgid "The mobile phone number subscribed to the Adfali service is required"
+msgstr "‫رقم الهاتف المشترك بخدمة أدفعلي مطلوب"
+
+#: includes/models/class-plutu-formidable-field.php:375
+#: includes/models/class-plutu-formidable-field.php:378
+msgid "Payment must be made via Adfali before proceeding"
+msgstr "يجب أن يتم الدفع عن طريق أدفعلي قبل المتابعة"
+
+#: includes/models/class-plutu-formidable-field.php:384
+msgid "OTP field is required"
+msgstr "حقل رمز التحقق مطلوب"
+
+#: includes/models/class-plutu-formidable-field.php:395
+msgid "No payment method selected. Please select one"
+msgstr "الرجاء اختيار طريقة الدفع"
+
+#: includes/models/class-plutu-formidable-field.php:420
+msgid ""
+"There is no preview of the Plutu field, please enable Payment Methods from "
+"Global Settings > Plutu. Then enable them in the settings of this field"
+msgstr ""
+"لا توجد معاينة لحقل Plutu، يرجى تفعيل اعدادات طرق الدفع من الإعدادات العامة "
+"> Plutu. ثم قم بتفعيل طرق الدفع في إعدادات هذا الحقل"
+
+#: includes/models/class-plutu-formidable-field.php:441
+msgid "There are no payment details for this entry"
+msgstr "لا توجد تفاصيل الدفع لهذا الإدخال"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:24
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:25
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:27
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:38
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:40
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:60
+msgid "Something went wrong"
+msgstr "حدث خطأ"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:26
+msgid "Please make sure all payment fields are filled out correctly"
+msgstr "يرجى التأكد من ملء جميع بيانات الدفع بشكل صحيح"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:28
+msgid "Oops! IP address restrictions, Please contact the site administrator"
+msgstr ""
+"عنوان IP الخاص بك غير مسموح له الوصول الي بوابات الدفع، اتصل بمسؤول الموقع"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:29
+msgid "Too many requests received"
+msgstr "تم تلقي طلبات كثيرة جدًا"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:30
+msgid "Test mode is not supported for payment gateway"
+msgstr "وضع الاختبار غير مدعوم لبوابة الدفع"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:31
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:49
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:50
+msgid "Oops! configuration missing, Please contact the site administrator"
+msgstr "‫بعض إعدادات الدفع غير صحيحة ، اتصل بمسؤول الموقع"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:32
+msgid "The mobile number is not subscribed to Adfali service"
+msgstr "رقم الهاتف غير مشترك بخدمة أدفعلي"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:33
+msgid "Invalid amount"
+msgstr "قيمة غير صالحة"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:34
+msgid "Something went wrong, please check the OTP code"
+msgstr "حدث خطأ الرجاء التأكد من رمز التحقق"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:35
+msgid "Incorrect mobile number"
+msgstr "رقم الهاتف غير صحيح"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:36
+msgid "Incorrect mobile number/year of birth"
+msgstr "رقم الهاتف او تاريخ الميلاد غير صحيح"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:37
+msgid "There is a problem with your account, please check with your bank"
+msgstr "الرجاء التحقق من حساب أدفعلي الخاص بك في مصرف التجارة والتنمية"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:39
+msgid ""
+"There is a problem connecting to the bank server, please try again later"
+msgstr "توجد مشكلة في الاتصال بخادم البنك ، يرجى المحاولة مرة أخرى لاحقًا"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:41
+msgid "Backend error, Please contact the site administrator"
+msgstr "خطأ داخلي ، حاول مرة أخرى أو اتصل بمسؤول الموقع"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:42
+msgid "Invalid OTP. please check your code and try again"
+msgstr "رمز التحقق غير صحيح، الرجاء التأكد من رمز التحقق"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:43
+msgid "Incorrect invoice ID or amount"
+msgstr "رقم الطلب او القيمة غير صحيحة"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:44
+msgid "Invoice number already exists"
+msgstr "رقم الطلب موجود مسبقاً"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:45
+msgid "The mobile number is empty"
+msgstr "حقل رقم الهاتف فارغ"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:46
+msgid "Birth year is empty"
+msgstr "حقل سنة الميلاد فارغ"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:47
+msgid "The OTP has exceeded the time allowed for its use"
+msgstr "تجاوز رمز التحقق الوقت المسموح به لاستخدامه"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:48
+msgid "Please wait a while before requesting an OTP resend again"
+msgstr "يرجى الانتظار بعض الوقت قبل طلب إعادة إرسال رمز التحقق مرة أخرى"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:51
+msgid "Transaction amount is not allowed"
+msgstr "مبلغ الطلب غير مسموح به"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:52
+msgid "Insufficient balance for the transaction"
+msgstr "رصيدك غير كافٍ لاجراء المعاملة"
+
+#: includes/traits/trait-plutu-formidable-api-error-codes.php:53
+msgid "Phone number is locked"
+msgstr "رقم الهاتف مقفل"
+
+#: includes/traits/trait-plutu-formidable-helper.php:292
+#, php-format
+msgid ""
+"Sorry! Total is %s LYD higher than maximum amount %s LYD per transaction"
+msgstr "الإجمالي هو %s د.ل أعلى من الحد الأقصى المسموح به %s د.ل لكل معاملة"
+
+#: includes/traits/trait-plutu-formidable-helper.php:294
+#, php-format
+msgid "Sorry! Total is %s LYD less than minimum amount %s LYD per transaction"
+msgstr "الإجمالي هو %s د.ل أقل من الحد الادني المسموح به %s د.ل لكل معاملة"
+
+#: includes/traits/trait-plutu-formidable-helper.php:312
+msgid "The amount is invalid, it must be greater than zero"
+msgstr "المبلغ غير مسموح به ، يجب أن يكون أكبر من صفر"
+
+#: includes/traits/trait-plutu-formidable-helper.php:325
+msgid "The amount is not in the selected options"
+msgstr "القيمة ليست من ضمن الخيارات المحددة"
+
+#: includes/views/admin-field/backend-field.php:13
+msgid "Payment Methods"
+msgstr "طرق الدفع"
+
+#: includes/views/admin-field/backend-field.php:22
+msgid "Sadad Payment Method"
+msgstr "خدمة سداد"
+
+#: includes/views/admin-field/backend-field.php:25
+#: includes/views/admin-field/backend-field.php:37
+msgid "(Disabled)"
+msgstr "(معطل)"
+
+#: includes/views/admin-field/backend-field.php:34
+msgid "Adfali Payment Method"
+msgstr "خدمة أدفعلي"
+
+#: includes/views/admin-field/backend-field.php:46
+msgid "Configure payment amounts"
+msgstr "ضبط قيم المعاملة"
+
+#: includes/views/admin-field/backend-field.php:51
+#: includes/views/payment/sadad_form.php:26
+#: includes/views/settings/fields.php:29
+msgid "Sadad"
+msgstr "سداد"
+
+#: includes/views/admin-field/backend-field.php:57
+#: includes/views/admin-field/backend-field.php:79
+msgid "Minimum value"
+msgstr "أقل قيمة"
+
+#: includes/views/admin-field/backend-field.php:66
+#: includes/views/admin-field/backend-field.php:88
+msgid "Maximum value"
+msgstr "أعلى قيمة"
+
+#: includes/views/admin-field/backend-field.php:72
+#: includes/views/payment/adfali_form.php:26
+#: includes/views/settings/fields.php:41
+msgid "Adfali"
+msgstr "أدفعلي"
+
+#: includes/views/admin-field/backend-field.php:98
+msgid "Hide payment methods icons"
+msgstr "إخفاء ايقونات طرق الدفع"
+
+#: includes/views/admin-field/backend-field.php:113
+msgid "Use custom amount"
+msgstr "استخدام قيمة"
+
+#: includes/views/admin-field/backend-field.php:116
+msgid "(If it is enabled the total field will be ignored)"
+msgstr "(إذا تم تمكينه ، فسيتم تجاهل استخدام حقل الإجمالي)"
+
+#: includes/views/admin-field/backend-field.php:126
+#: includes/views/payment/adfali_form.php:52
+#: includes/views/payment/adfali_form.php:58
+#: includes/views/payment/sadad_form.php:52
+#: includes/views/payment/sadad_form.php:58
+msgid "Amount"
+msgstr "القيمة"
+
+#: includes/views/admin-field/backend-field.php:129
+msgid ""
+"You can specify a single value, Also you can assign multiple values and "
+"separate them with a comma or leave blank to allow the user to enter the "
+"value."
+msgstr ""
+"يمكنك تحديد قيمة واحدة ، كما يمكنك تعيين مجموعة قيم متعددة وفصلها بفاصلة أو "
+"تركها فارغة للسماح للمستخدم بإدخال القيمة."
+
+#: includes/views/admin-field/backend-field.php:145
+msgid "To use the Total field, you must uncheck (Use custom amount) option"
+msgstr "لاستخدام حقل الإجمالي ، يجب عليك إلغاء تحديد خيار (استخدام قيمة)"
+
+#: includes/views/admin-field/backend-field.php:150
+msgid "The total field associated with the payment method"
+msgstr "الحقل الإجمالي المرتبط بطرق الدفع"
+
+#: includes/views/admin-field/backend-field.php:151
+msgid "Total field"
+msgstr "حقل الإجمالي"
+
+#: includes/views/admin-field/backend-field.php:162
+msgid "Set the Plutu payment section to be hidden if the total is zero."
+msgstr ""
+"قم بتعيين قسم دفع Plutu ليكون مخفيًا إذا كان الإجمالي صفرًا أو لم يحدد "
+"المستخدم قيمة محددة."
+
+#: includes/views/admin-field/backend-field.php:170
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; تحديد &mdash;"
+
+#: includes/views/payment/adfali_form.php:32
+msgid "Adfali service from the Bank of Commerce and Development"
+msgstr "خدمة ‫أدفعلي من مصرف التجارة والتنمية"
+
+#: includes/views/payment/adfali_form.php:58
+#: includes/views/payment/adfali_form.php:64
+#: includes/views/payment/adfali_form.php:69
+#: includes/views/payment/adfali_form.php:82
+#: includes/views/payment/adfali_form.php:84
+#: includes/views/payment/sadad_form.php:58
+#: includes/views/payment/sadad_form.php:64
+#: includes/views/payment/sadad_form.php:69
+#: includes/views/payment/sadad_form.php:82
+#: includes/views/payment/sadad_form.php:84
+msgid "LYD"
+msgstr "د.ل"
+
+#: includes/views/payment/adfali_form.php:100
+#: includes/views/payment/sadad_form.php:101
+msgid "Mobile number"
+msgstr "رقم الهاتف"
+
+#: includes/views/payment/adfali_form.php:104
+msgid "09xxxxxxxx"
+msgstr "‫09xxxxxxxx"
+
+#: includes/views/payment/adfali_form.php:118
+#: includes/views/payment/payment.php:94
+#: includes/views/payment/sadad_form.php:130
+msgid "Send OTP"
+msgstr "ارسال رمز التأكيد"
+
+#: includes/views/payment/adfali_form.php:140
+#: includes/views/payment/sadad_form.php:147
+msgid "OTP"
+msgstr "رمز التأكيد"
+
+#: includes/views/payment/adfali_form.php:147
+msgid "Enter the OTP code received from the Adfali service and submit the form"
+msgstr "ادخل رمز التأكيد المستلم من خدمة أدفعلي وقم بارسال النموذج"
+
+#: includes/views/payment/adfali_form.php:154
+#: includes/views/payment/sadad_form.php:159
+msgid "Did not receive an OTP? Please wait for a few minutes and "
+msgstr "لم تستلم رمز التأكيد؟ يرجى الانتظار لبضع دقائق و "
+
+#: includes/views/payment/adfali_form.php:157
+#: includes/views/payment/sadad_form.php:162
+msgid "try again"
+msgstr "حاول مرة أخرى"
+
+#: includes/views/payment/payment.php:93
+msgid "Sending..."
+msgstr "ارسال …"
+
+#: includes/views/payment/sadad_form.php:32
+msgid "Sadad mobile payment"
+msgstr "خدمة سداد من شركة المدار الجديد"
+
+#: includes/views/payment/sadad_form.php:105
+msgid "091xxxxxxx"
+msgstr "‫091xxxxxxx"
+
+#: includes/views/payment/sadad_form.php:114
+msgid "Birth year"
+msgstr "سنة الميلاد"
+
+#: includes/views/payment/sadad_form.php:118
+msgid "Birth year xxxx"
+msgstr "سنة الميلاد xxxx"
+
+#: includes/views/payment/sadad_form.php:154
+msgid "Enter the OTP code received from the Sadad service and submit the form"
+msgstr "ادخل رمز التأكيد المستلم من خدمة سداد وقم بارسال النموذج"
+
+#: includes/views/settings/fields.php:13
+msgid ""
+"Plutu is a unified Payment gateway to manage all Libyan payment gateway "
+"providers in one place while providing the ability to integrate these "
+"providers with your online Marketplace in one process."
+msgstr ""
+"بلوتو هي بوابة دفع موحدة لإدارة جميع مزودي بوابات الدفع الليبية في مكان واحد "
+"مع توفير القدرة على دمج هؤلاء المزودين مع سوقك على الإنترنت في عملية واحدة."
+
+#: includes/views/settings/fields.php:15
+msgid "Documentations"
+msgstr "‫الوثائق"
+
+#: includes/views/settings/fields.php:15
+msgid "Help"
+msgstr "‫الدعم الفني"
+
+#: includes/views/settings/fields.php:21
+msgid "Plutu Payment Methods"
+msgstr "طرق الدفع"
+
+#: includes/views/settings/fields.php:32
+msgid "Sadad payment method"
+msgstr "خدمة سداد"
+
+#: includes/views/settings/fields.php:44
+msgid "Adfali payment method"
+msgstr "خدمة أدفعلي"
+
+#: includes/views/settings/fields.php:49
+msgid "API Configurations"
+msgstr "اعدادات API"
+
+#: includes/views/settings/fields.php:52
+msgid "To use the Sandbox, you must use the test mode access token."
+msgstr ""
+"لاستخدام وضع الاختبار(التجربة) ، يجب عليك استخدام رمز الوصول إلى وضع "
+"الاختبار."
+
+#: includes/views/settings/fields.php:56
+msgid "API Key"
+msgstr "مفتاح API"
+
+#: includes/views/settings/fields.php:64
+msgid "Access Token"
+msgstr "رمز وصول"
+
+#: includes/views/settings/fields.php:71
+msgid "Save"
+msgstr "حفظ"
+
+#~ msgid "Set payment section hidden"
+#~ msgstr "إخفاء قسم الدفع"
+
+#~ msgid "Plutu payment methods configurations"
+#~ msgstr "تكوين طرق الدفع لمنصة Plutu"
+
+#~ msgid "Confirmation code"
+#~ msgstr "رمز التأكيد"
+
+#~ msgid "Did not receive an OTP?"
+#~ msgstr "لم تتلق رمز؟"
+
+#~ msgid "Resend"
+#~ msgstr "إعادة ارسال"
+
+#~ msgid "OTP code received from Adfali is required"
+#~ msgstr "ادخل رمز التأكيد المستلم من خدمة أدفعلي"
+
+#~ msgid "Send verification code"
+#~ msgstr "ارسال رمز التأكيد"
+
+#~ msgid "Mobile payment service by Almadar"
+#~ msgstr "خدمة سداد من شركة المدار الجديد"
+
+#~ msgid "Missing Plutu field configuration"
+#~ msgstr "تكوين حقل Pluto مفقود"
+
+#~ msgid "Reference number does not exist"
+#~ msgstr "الرقم المرجعي غير موجود"
+
+#~ msgid ""
+#~ "Your card has not been activated for online use, please contact the card "
+#~ "issuer"
+#~ msgstr ""
+#~ "لم يتم تنشيط بطاقتك للاستخدام عبر الإنترنت ، يرجى الاتصال بجهة إصدار "
+#~ "البطاقة"
+
+#, fuzzy
+#~| msgid "Request another code"
+#~ msgid "Request in progress"
+#~ msgstr "قم بطلب رمز جديد"
+
+#, fuzzy
+#~| msgid "Invalid amount"
+#~ msgid "Invalid transaction"
+#~ msgstr "قيمة غير صالحة"
+
+#, fuzzy
+#~| msgid "Invalid amount"
+#~ msgid "Invalid response"
+#~ msgstr "قيمة غير صالحة"
+
+#, fuzzy
+#~| msgid "Transaction amount is not allowed"
+#~ msgid "Transaction not permitted to cardholder"
+#~ msgstr "مبلغ الطلب غير مسموح به"
+
+#, fuzzy
+#~| msgid "Transaction amount is not allowed"
+#~ msgid "Transaction not allowed at terminal"
+#~ msgstr "مبلغ الطلب غير مسموح به"
+
+#, fuzzy
+#~| msgid "Set payment section hidden"
+#~ msgid "Stop payment order"
+#~ msgstr "إخفاء قسم الدفع"
+
+#~ msgid "Token mismatch"
+#~ msgstr "الرمز غير صالح الرجاء تحديث الصفحة"
+
+#~ msgid ""
+#~ "the payment amount exceeds the maximum amount that is allowed for the "
+#~ "transaction"
+#~ msgstr "مبلغ الدفع يتجاوز الحد الأقصى للمبلغ المسموح به للمعاملة"
+
+#~ msgid "Birth year is required"
+#~ msgstr "الرجاء إدخال سنة الميلاد"
+
+#~ msgid ""
+#~ "Plutu payment methods in this form, make sure they are enabled in the "
+#~ "global Plutu configuration otherwise it will not work"
+#~ msgstr ""
+#~ "طرق الدفع من Plutu .قم بالتأكد من ضبط الاعدادات العامة أولا ثم أختر طرق "
+#~ "الدفع في هذا النموذج"
+
+#~ msgid "Something went wrong, please try again"
+#~ msgstr "حدث خطأ ما! يرجى المحاولة مرة أخرى"
+
+#~ msgid "No more than one product field is supported"
+#~ msgstr "يحتوي النموذج على أكثر من حقل منتج"
+
+#~ msgid "The amount you chose is not allowed"
+#~ msgstr "المبلغ غير مسموح به"
+
+#~ msgid "This is a placeholder for your Plutu field"
+#~ msgstr "هنا سيظهر حقل Plutu"
+
+#~ msgid "Pay with"
+#~ msgstr "إدفع بواسطة"
+
+#~ msgid "Mobile number field is required"
+#~ msgstr "‏الهاتف مطلوب"
+
+#~ msgid ""
+#~ "Formidable Plutu plugin won't work because it depends on the Formidable "
+#~ "plugin"
+#~ msgstr "إضافة Formidable Plutu لن تعمل لإنها تعتمد على إضافة Formidable"
+
+#~ msgid "Formidable Plutu plugin won't work because it depends on Yootheme"
+#~ msgstr "إضافة Formidable Plutu لن تعمل لأنها تعتمد على Yootheme"
+
+#~ msgid ""
+#~ "Formidable Plutu plugin won't work because its configurations are not set"
+#~ msgstr "إضافة Formidable Plutu لن تعمل لأن إعداداتها لم يتم تحديدها بعد"
+
+#~ msgid ""
+#~ "Formidable Plutu plugin won't work unless you define active payment "
+#~ "methods from Formidable Global Settings -> Formidable Plutu"
+#~ msgstr ""
+#~ "إضافة Formidable Plutu لن تعمل ما لم تقم بتفعيل طرق الدفع من إعدادات "
+#~ "Formidable Plutu "
+
+#~ msgid "Get confirmation code"
+#~ msgstr "احصل على رمز تأكيد"
+
+#~ msgid "Payment failed"
+#~ msgstr "عملية الدفع فشلت"
+
+#~ msgid "Please wait"
+#~ msgstr "الرجاء الانتظار"
+
+#~ msgid "Reference number is not filled"
+#~ msgstr "لم يتم تعبئة الرقم المرجعي"
+
+#~ msgid "Scan QR code by Sadad mobile app"
+#~ msgstr "صور رمز ال QR بواسطة تطبيق سداد"
+
+#~ msgid "Settings"
+#~ msgstr "إعدادات"
